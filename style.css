@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+}
+
+body {
+    background: url('BG5.jpg') no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    background-color: transparent;
+    backdrop-filter: blur(30px);
+    border: 2px solid rgba(0, 0, 0, .2);
+    width: 450px;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.container h1 {
+    margin: 10px 0;
+}
+
+.input {
+    width: 100%;
+}
+
+.input input {
+    padding: 1rem;
+    width: 100%;
+    margin: 5px;
+    border: 2px solid rgba(0, 0, 0, .2);
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: transparent;
+    color: black;
+}
+
+.input input::placeholder {
+    color: black;
+}
+
+.login-btn {
+    padding: 1rem;
+    width: 100%;
+    border-radius: 20px;
+    border: 2px solid rgba(0, 0, 0, .2);
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 30px;
+    background-color: transparent;
+    color: black;
+}
+
+.help {
+    width: 100%;
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#rmbr-me {
+    font-size: 20px;
+    margin-left: 10px;
+    color: black;
+}
+
+.help a {
+    font-size: 20px;
+    color: black;
+}
+
+.register {
+    color: black;
+    font-size: 22px;
+    margin: 20px 0;
+    text-decoration: underline;
+}
